@@ -131,13 +131,13 @@ function Weather() {
       </div>
       <div className="sunrise-snset fs-3  ">
         <p className="sunrise ">
-          Sunrise Time:{" "}
+          Sunrise Time :{" "}
           <span className="yellow-color">
             {WeatherData && sunriseAndSunset(WeatherData.sys.sunrise)}
           </span>
         </p>
         <p className="sunset ">
-          Sunset Time:{" "}
+          Sunset Time :{" "}
           <span className="yellow-color">
             {WeatherData && sunriseAndSunset(WeatherData.sys.sunset)}
           </span>
